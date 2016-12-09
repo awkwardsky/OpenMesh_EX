@@ -29,6 +29,7 @@ VIter ChoiceTool::choicePoint(int mouseX, int mouseY) {
 	bool first = true;///Unknow
 	double mostSuitablePoint;
 	double minimunValue = 99;///這不用特地放全域變數應該不會有錯
+	double b = 123;
 
 	for (VIter v_it = choiceToolMesh->vertices_begin(); v_it != choiceToolMesh->vertices_end(); ++v_it) {
 		vector<Point> point_v_it;
